@@ -5,19 +5,19 @@ CS5008 Assignment 7 Documentation
 ### Overview
 
 1. program description and general summary  
-⋅⋅* Program uses hashtable to find anagrams. It can be modified to search for individual anagrams
+  * Program uses hashtable to find anagrams. It can be modified to search for individual anagrams
 2. compile/run commands  
-⋅⋅* make all
-⋅⋅* make run
+  * make all
+  * make run
 3. Example input/output  
-⋅⋅* See below
+  * See below
 4. Files  
-⋅⋅* hashtable.c is the hashtable structure
-⋅⋅* anagram.c is the anagram structure
-⋅⋅* main.c runs the program
-⋅⋅* test_main.cc is the unit tests for the functions in the data structures
-⋅⋅* words.txt is the data target
-⋅⋅* readme.md is this file
+  * hashtable.c is the hashtable structure
+  * anagram.c is the anagram structure
+  * main.c runs the program
+  * test_main.cc is the unit tests for the functions in the data structures
+  * words.txt is the data target
+  * readme.md is this file
 
 5. Libraries  
 ```
