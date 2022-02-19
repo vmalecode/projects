@@ -1,37 +1,31 @@
-# Assignment 7
+# Finding Anagrams Using C
 
-Assignment 7 Documentation
+CS5008 Assignment 7 Documentation
 
-### Readme Questions
+### Overview
 
 1. program description and general summary  
-Program uses hashtable to find anagrams. It can be modified to search for individual anagrams
+⋅⋅* Program uses hashtable to find anagrams. It can be modified to search for individual anagrams
 2. compile/run commands  
-    make all
-    make run
-3. example input/output  
-see below
-4. file description  
-hashtable.c is the hashtable structure
-anagram.c is the anagram structure
-main.c runs the program
-test_main.cc is the unit tests for the functions in the data structures
-words.txt is the data target
-readme.md is this file
+⋅⋅* make all
+⋅⋅* make run
+3. Example input/output  
+⋅⋅* See below
+4. Files  
+⋅⋅* hashtable.c is the hashtable structure
+⋅⋅* anagram.c is the anagram structure
+⋅⋅* main.c runs the program
+⋅⋅* test_main.cc is the unit tests for the functions in the data structures
+⋅⋅* words.txt is the data target
+⋅⋅* readme.md is this file
 
-5. external library usage  
+5. Libraries  
 ```
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
 ```
-6. any assumption made  
-
-7. external references and resources  
-This readme.md template is from DomPizzie.
-8. the tricky or hard part you spent time on  
-I had memory leak issues
 
 ### Executing program
 
@@ -164,5 +158,3 @@ else{
 }
 ```
 
-## Acknowledgments
-* [DomPizzie's Readme Template](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
