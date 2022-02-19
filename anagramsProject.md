@@ -4,11 +4,13 @@ CS5008 Assignment 7 Documentation
 
 ### Overview
 
-1. program description and general summary  
+1. Program description and general summary:
   * Program uses hashtable to find anagrams. It can be modified to search for individual anagrams
 2. compile/run commands  
-  * make all
-  * make run
+```
+  make all
+  make run
+```
 3. Example input/output  
   * See below
 4. Files  
